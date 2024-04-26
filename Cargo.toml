@@ -1,0 +1,12 @@
+[package]
+name = "rc-metronome"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rodio = "0.17.3"
+spin_sleep = "1.2.0"
+axum = "0.7"
+axum-macros = "0.4"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0.196", features = ["derive"] }
